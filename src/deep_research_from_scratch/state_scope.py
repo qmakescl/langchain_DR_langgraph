@@ -15,6 +15,7 @@ from pydantic import BaseModel, Field
 
 # ===== STATE DEFINITIONS =====
 
+## LangGraph 에서 미리 만들어진 상태 객체, 단일 메세지 필드(MessageState)
 class AgentInputState(MessagesState):
     """Input state for the full agent - only contains messages from user input."""
     pass
